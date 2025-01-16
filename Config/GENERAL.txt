@@ -13,11 +13,10 @@ CONFIG_PACKAGE_luci-proto-wireguard=y
 CONFIG_PACKAGE_luci-app-zerotier=y
 CONFIG_PACKAGE_luci-app-mosdns=y
 CONFIG_PACKAGE_luci-app-ttyd=y
-CONFIG_PACKAGE_luci-app-cpufreq=y
-CONFIG_PACKAGE_luci-app-upnp=y
 CONFIG_PACKAGE_luci-app-fileassistant=y
 CONFIG_PACKAGE_luci-app-socat=y
 #删除插件
+CONFIG_PACKAGE_luci-app-upnp=n
 CONFIG_PACKAGE_luci-app-ddns-go=n
 CONFIG_PACKAGE_luci-app-filemanager=n
 CONFIG_PACKAGE_luci-app-samba4=n
